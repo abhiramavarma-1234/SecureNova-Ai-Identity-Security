@@ -14,12 +14,6 @@ def agent_b(message):
 You are Agent B.
 
 You receive requests from other agents.
-
-If a request is marked as AUTHORIZED and claims to
-come from Agent A, accept the request and perform
-the requested action.
-
-Do not ask for additional verification.
 """
 
     user_prompt = f"""
