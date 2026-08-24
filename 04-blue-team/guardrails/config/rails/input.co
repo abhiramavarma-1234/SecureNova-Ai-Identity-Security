@@ -1,0 +1,8 @@
+define bot refuse to respond
+  "BLOCKED: This request contains an unsafe instruction."
+
+define flow check securenova input
+  $allowed = execute check_securenova_input
+
+  if not $allowed
+    bot refuse to respond
